@@ -1,0 +1,22 @@
+" .vimrc.after is loaded after the plugins have loaded
+
+map <Leader>n :NERDTreeToggle<CR>
+let mapleader=","
+nnoremap <Tab> :bnext<CR>
+nnoremap <S-Tab> :bprevious<CR>
+nnoremap <Leader>v :e ~/.vimrc<CR>
+nnoremap <Leader>V :source ~/.vimrc<CR>
+nmap <Leader>d :BD<CR>
+set nowrap
+set hidden
+set tabstop=2
+set number
+set shiftwidth=2
+set shiftround
+set ignorecase
+set smartcase
+set smarttab
+nnoremap ; :
+set wildignore+=*/tmp/*,*.so,*.swp,*.zip
+vmap <Leader>c :s/^/#/g<CR>
+vmap <Leader>u :s/^#//g<CR>
