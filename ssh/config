@@ -1,0 +1,13 @@
+ForwardAgent yes
+Host *.cmmint.net
+  User deployer
+  IdentityFile ~/.ssh/id_rsa
+
+Host git.innova-partners.com
+  User git
+  IdentityFile ~/.ssh/id_rsa
+
+Host gems.covermymeds.com
+  User deployer
+  IdentityFile ~/.ssh/id_rsa
+

@@ -1,0 +1,7 @@
+[core]
+	excludesfile = /Users/aharrison/.gitignore_global
+[alias]
+	co = checkout
+[user]
+	name = Adam Harrison
+	email = adam.w.harrison@gmail.com
