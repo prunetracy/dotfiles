@@ -1,0 +1,9 @@
+#asset precompilation
+/public/assets
+
+#OS  Generated
+.DS_Store
+
+#RubyMine generated
+/.idea
+
