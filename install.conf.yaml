@@ -5,7 +5,7 @@
     ~/.bashrc: bashrc
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
-    ~/.vimrc: vimrc
+    ~/.vim/janus/vim/vimrc
     ~/.vimrc.after: vimrc_after
 
 

@@ -2,6 +2,7 @@
 	excludesfile = ~/.gitignore_global
 [alias]
 	co = checkout
+	a = add -p
 [user]
 	name = Adam Harrison
 	email = adam.w.harrison@gmail.com
