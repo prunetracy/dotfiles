@@ -6,6 +6,7 @@ alias c='clear'
 alias gs='git status'
 alias h='cd ~'
 alias v='cd ~/vagrant'
+alias ce='cd /pub/central/current'
 alias vc='cd ~/vagrant/code/central'
 
 alias nre='npm run example'
@@ -19,8 +20,6 @@ alias ...='cd ../..'		#go back 2 dir levels
 alias .3='cd ../../../'		#go back 3 dir levels
 alias .4='cd ../../../../'	#go back 4 dir levels
 alias lr='ls -R | grep ":$" | sed -e '\''s/:$//'\'' -e '\''s/[^-][^\/]*\//--/g'\'' -e '\''s/^/   /'\'' -e '\''s/-/|/'\'' | less'
-
-alias edit='subl'		#open in SublimeText
 
 alias myip='curl ip.appspot.com'	#public facing ip
 
