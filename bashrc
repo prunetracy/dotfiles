@@ -8,6 +8,7 @@ alias h='cd ~'
 alias v='cd ~/vagrant'
 alias ce='cd /pub/central/current'
 alias vc='cd ~/vagrant/code/central'
+alias be='bundle exec'
 
 alias nre='npm run example'
 
