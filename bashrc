@@ -31,6 +31,10 @@ alias rebootapp='touch /pub/central/current/tmp/restart.txt'
 alias ebrc='nano ~/.bash_profile'
 alias sbrc='source ~/.bash_profile'
 
+if [ -f ~/.git-completion.bash ]; then
+  . ~/.git-completion.bash
+fi
+
 ssh-add -L &> /dev/null
 if [ $? -eq 1 ]; then
 ssh-add

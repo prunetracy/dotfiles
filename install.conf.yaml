@@ -6,4 +6,4 @@
     ~/.gitconfig: gitconfig
     ~/.gitignore_global: gitignore_global
     ~/.vimrc.after: vimrc_after
-
+    ~/.git-completion.bash: git_completion
