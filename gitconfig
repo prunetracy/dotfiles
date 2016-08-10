@@ -3,6 +3,7 @@
 [alias]
 	co = checkout
 	a = add -p
+	unstage = reset
 [user]
 	name = Adam Harrison
 	email = adam.w.harrison@gmail.com

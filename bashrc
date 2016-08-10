@@ -29,8 +29,8 @@ alias vstop='cd ~/vagrant/; vagrant halt;'
 alias vupdate='cd ~/vagrant; script/updateproject'
 alias rebootapp='touch /pub/central/current/tmp/restart.txt'
 
-alias ebrc='nano ~/.bash_profile'
-alias sbrc='source ~/.bash_profile'
+alias ebrc='vim ~/.bashrc'
+alias sbrc='source ~/.bashrc'
 
 if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
@@ -41,3 +41,5 @@ if [ $? -eq 1 ]; then
 ssh-add
 fi
 
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
