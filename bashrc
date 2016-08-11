@@ -3,6 +3,7 @@ export PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]:\[\033[33;1m\]\w\[
 
 #Aliases
 alias c='clear'
+alias g='git'
 alias gs='git status'
 alias h='cd ~'
 alias v='cd ~/vagrant'
