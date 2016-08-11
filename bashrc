@@ -1,5 +1,8 @@
+export GITAWAREPROMPT=~/.bash/git-aware-prompt
+source "${GITAWAREPROMPT}/main.sh"
+
 #Change Prompt
-export PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]:\[\033[33;1m\]\w\[\033[m\]\\n$ "
+export PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]:\[\033[33;1m\]\w\[\033[m\]\\[$txtcyn\]\$git_branch\[$txtred\]\$git_dirty\[$txtrst\]\\n$ "
 
 #Aliases
 alias c='clear'

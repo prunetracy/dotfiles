@@ -7,3 +7,5 @@
     ~/.gitignore_global: gitignore_global
     ~/.vimrc.after: vimrc_after
     ~/.git-completion.bash: git_completion
+    ~/.bash: bash
+    ~/.vim: vim
