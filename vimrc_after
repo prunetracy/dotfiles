@@ -20,3 +20,4 @@ nnoremap ; :
 set wildignore+=*/tmp/*,*.so,*.swp,*.zip
 vmap <Leader>c :s/^/#/g<CR>
 vmap <Leader>u :s/^#//g<CR>
+imap jk <ESC>
